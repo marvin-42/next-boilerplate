@@ -8,11 +8,6 @@
 # testing
 /coverage
 
-# database
-/prisma/db.sqlite
-/prisma/db.sqlite-journal
-db.sqlite
-
 # next.js
 /.next/
 /out/
@@ -46,3 +41,10 @@ yarn-error.log*
 .idea
 # Sentry Config File
 .env.sentry-build-plugin
+
+# playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+node_modules/
+/blob-report/
